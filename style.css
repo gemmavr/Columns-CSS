@@ -1,0 +1,18 @@
+html{
+    background-color:gold;
+}
+p {
+    column-span: all;
+    column-count: 3;
+    column-gap: 40px;    
+    column-rule: 2px solid #ff3c00;
+}
+
+span:hover {
+    background-color: antiquewhite;
+    color: blue;
+}
+
+h1:hover{
+    background-color: #ff3c00;
+}       
