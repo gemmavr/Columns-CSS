@@ -1,18 +1,14 @@
-html{
-    background-color:gold;
-}
-p {
-    column-span: all;
-    column-count: 3;
-    column-gap: 40px;    
-    column-rule: 2px solid #ff3c00;
-}
+div{ 
+    padding: 50px;
+    margin: 150px;
+    width: auto;
 
-span:hover {
-    background-color: antiquewhite;
-    color: blue;
-}
+    border-top-width: 10px;
+    border-top-color: green;
+    border-top-style: dotted;
 
-h1:hover{
-    background-color: #ff3c00;
-}       
+    border-right: 10px dashed blue;
+    border-left: 10px double black;
+    border-bottom: 10px solid red;
+   
+}
